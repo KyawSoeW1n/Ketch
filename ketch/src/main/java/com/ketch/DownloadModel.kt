@@ -35,5 +35,6 @@ data class DownloadModel(
     val lastModified: Long,
     val eTag: String,
     val metaData: String,
-    val failureReason: String
+    val failureReason: String,
+    val userAction: String
 )
